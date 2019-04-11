@@ -1,5 +1,5 @@
 {
-	"name": "Solarized Dark",
+	"name": "Drew's Theme",
 	"groups": {
 		"information:additional":     { "fg": "solarized:base3", "bg": "solarized:base01", "attrs": [] },
 		"information:regular":        { "fg": "solarized:base3", "bg": "solarized:base01", "attrs": ["bold"] },
@@ -11,10 +11,10 @@
 		"background":                 { "fg": "solarized:base3", "bg": "solarized:base02", "attrs": [] },
 		"background:divider":         { "fg": "solarized:base1", "bg": "solarized:base02", "attrs": [] },
 		"user":                       { "fg": "solarized:base3", "bg": "darkestpurple", "attrs": ["bold"] },
-		"virtualenv":                 { "fg": "solarized:base3", "bg": "solarized:green", "attrs": [] },
+		"virtualenv":                 { "fg": "brightcyan", "bg": "darkestblue", "attrs": [] },
 		"branch":                     { "fg": "solarized:base1", "bg": "solarized:base02", "attrs": [] },
-		"branch_dirty":               { "fg": "solarized:yellow", "bg": "solarized:base02", "attrs": [] },
-		"branch_clean":               { "fg": "solarized:base1", "bg": "solarized:base02", "attrs": [] },
+		"branch_dirty":               { "fg": "solarized:yellow", "bg": "solarized:base01", "attrs": [] },
+		"branch_clean":               { "fg": "solarized:base1", "bg": "solarized:base01", "attrs": [] },
 		"stash":                      "branch_dirty",
 		"email_alert_gradient":       { "fg": "solarized:base3", "bg": "yellow_orange_red", "attrs": [] },
 		"email_alert":                "warning:regular",
@@ -33,8 +33,22 @@
 		"time":                       { "fg": "solarized:base1", "bg": "solarized:base02", "attrs": ["bold"] },
 		"time:divider":               { "fg": "solarized:base1", "bg": "solarized:base02", "attrs": [] },
 		"system_load":                { "fg": "solarized:base1", "bg": "solarized:base03", "attrs": [] },
-		"weather_temp_gradient":      { "fg": "blue_red", "bg": "solarized:base03", "attrs": [] },
+		"weather_temp_gradient":      { "fg": "blue_red",        "bg": "solarized:base03", "attrs": [] },
 		"weather":                    { "fg": "solarized:base1", "bg": "solarized:base03", "attrs": [] },
-		"uptime":                     { "fg": "solarized:base1", "bg": "solarized:base03", "attrs": [] }
+		"uptime":                     { "fg": "solarized:base1", "bg": "solarized:base03", "attrs": [] },
+                "gitstatus":                  { "fg": "brightgreen",     "bg": "darkestgreen", "attrs": [] },
+                "gitstatus_branch":           { "fg": "brightgreen",     "bg": "darkestgreen", "attrs": [] },
+                "gitstatus_branch_clean":     { "fg": "brightgreen",     "bg": "darkestgreen", "attrs": [] },
+                "gitstatus_branch_dirty":     { "fg": "gray8",           "bg": "darkestgreen", "attrs": [] },
+                "gitstatus_branch_detached":  { "fg": "brightorange",    "bg": "darkestgreen", "attrs": [] },
+                "gitstatus_tag":              { "fg": "gold3",        "bg": "darkestgreen", "attrs": [] },
+                "gitstatus_behind":           { "fg": "gray10",          "bg": "darkestgreen", "attrs": [] },
+                "gitstatus_ahead":            { "fg": "gray10",          "bg": "darkestgreen", "attrs": [] },
+                "gitstatus_staged":           { "fg": "green",           "bg": "darkestgreen", "attrs": [] },
+                "gitstatus_unmerged":         { "fg": "brightestred",       "bg": "darkestgreen", "attrs": [] },
+                "gitstatus_changed":          { "fg": "mediumorange",    "bg": "darkestgreen", "attrs": [] },
+                "gitstatus_untracked":        { "fg": "brightestorange", "bg": "darkestgreen", "attrs": [] },
+                "gitstatus_stashed":          { "fg": "gold3",        "bg": "darkestgreen", "attrs": [] },
+                "gitstatus:divider":          { "fg": "gray8",           "bg": "darkestgreen", "attrs": [] }
 	}
 }
